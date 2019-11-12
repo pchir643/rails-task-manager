@@ -1,0 +1,4 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.detail %></p>
+<p> Done:<%= @task.completed == true ? "👍" : "👎"%></p>
+<p><%= link_to("Return", tasks_path) %></p>
